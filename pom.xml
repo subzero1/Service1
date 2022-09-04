@@ -36,6 +36,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <!-- 被zipkin服务追踪的启动依赖-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-zipkin</artifactId>-->
+<!--            <version>2.2.8.RELEASE</version>-->
+<!--        </dependency>-->
     </dependencies>
     <dependencyManagement>
         <dependencies>
